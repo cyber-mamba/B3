@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "B3",
+    "description": "B3 (Blue team Big Brain)",
+    "version": "1.0",
+    "action": {
+      "default_popup": "hello.html",
+      "default_icon": "B3.png"
+    },
+    "permissions": [
+      "contextMenus"
+    ],
+    "icons": {
+      "16": "B3.png"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "http://*/*",
+          "https://*/*"
+        ],
+        "css": [ "content_styles.css" ],
+        "js": [ "content_scripts.js" ]
+      }
+    ]
+  }

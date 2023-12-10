@@ -1,0 +1,17 @@
+{
+  "name": "b3",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "Blue team Big Brain",
+  "main": "./src/background.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "CMamba",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.254",
+    "typescript": "^5.3.3"
+  }
+}
